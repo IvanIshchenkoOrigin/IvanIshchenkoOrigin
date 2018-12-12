@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>!ROZETKA</title>
+
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<header>
+		<h1>!ROZETKA</h1>
+		<div class="category-list"></div>
+		<button type="button" class="watch-korzina">WATCH korzina</button>	
+	</header>
+
+	<div class="korzina">
+		<button class="close-btn" type="button">X</button>
+		<h1>korzina</h1>
+
+		<div class="korzina-product-list"></div>
+		<form name="form-order">
+
+			<div><label for="name">Name</label>
+			<input type="text" id="name" name="name" required></div>
+
+			<div><label for="phone">Phone :</label>
+			<input type="tel" id="phone" name="phone" pattern="\+380[0-9]{9}" required></div>
+
+			<div><label for="email">Email :</label>
+			<input type="email" id="email" pattern=".+@.+" size="30" required></div>
+			
+			<button type="button" class="korzina-buy-button">BUY</button>
+		</form>
+	</div>
+	
+	<div class="container">
+		
+			
+		
+
+		<div class="product-grid">
+
+		</div>
+
+		<div class="full-product">
+			
+		</div>
+	</div>
+	<footer>
+		<h1>SUPPORT</h1>
+		<p>email - larde2018@gmail.com</p>
+	</footer>
+	<script src="./js/main.js"></script>
+</body>
+</html>
